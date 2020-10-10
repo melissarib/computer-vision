@@ -1,21 +1,14 @@
 # Facial-Expression-Recognition
-This project is a part of Coursera's Guided Project - [Facial Expression Recognition with Keras](https://www.coursera.org/programs/86ebe3a1-8523-43c0-a9da-7374390c1e9a/browse?entityTypeDescription=Rhyme+Projects&index=prod_enterprise_products&productId=IC9GxmJ7EeqZhwpHN8ICRw&productType=course&query=computer+vision+&showMiniModal=true)
+Este projeto faz parte do Projeto Guiado do Coursera - [Facial Expression Recognition with Keras](https://www.coursera.org/projects/facial-expression-recognition-keras) 
 
-In this project, we will build and train a convolutional neural network (CNN) in Keras from scratch to recognize facial expressions. The data consists of 48x48 pixel grayscale images of faces. The objective is to classify each face based on the emotion shown in the facial expression into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). We will use OpenCV to automatically detect faces in images and draw bounding boxes around them. Once we have trained, saved, and exported the CNN, we will directly serve the trained model to a web interface and perform real-time facial expression recognition on video and image data.
+Neste projeto, iremos construir e treinar uma rede neural convolucional (CNN) no Keras a partir do zero para reconhecer expressões faciais.
 
-The project can be braodly divided into two parts -
-1) Build and train a model in Keras for Facial Expression Recognition.
-2) Deploy the model on web using FLASK and run it on videos.
+Os dados consistem em imagens de rostos em tons de cinza de 48x48 pixels. O objetivo é classificar cada rosto com base na emoção mostrada na expressão facial em uma das sete categorias (0 = Zangado, 1 = Nojo, 2 = Medo, 3 = Feliz, 4 = Triste, 5 = Surpresa, 6 = Neutro) . 
 
-# Steps to follow
+Usaremos OpenCV para detectar automaticamente rostos em imagens e desenhar caixas delimitadoras ao redor deles. Depois de treinar, salvar e exportar o CNN, serviremos diretamente o modelo treinado para uma interface da web e realizaremos o reconhecimento de expressão facial em tempo real em dados de vídeo e imagem.
 
-1) Extract train and test images from ```data.rar``` file.
-2) Install dependencies using
+O projeto pode ser dividido em duas partes:
+1) Construir e treinar um modelo em Keras para reconhecimento de expressão facial.
+2) Implantar o modelo na web usando FLASK.
 
-   ```pip install pipenv```
-
-   ```pipenv install```
-
-3) Run the jupyter notebook for training, ```model.json``` and ```model_weights.h5``` files will be created after training.
-4) Add the correct path to the video file in camera.py on line 11.
-5) Now run  ```pipenv run python3 main.py```
+Enjoy it! ♡
